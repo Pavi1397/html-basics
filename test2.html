@@ -1,0 +1,88 @@
+<html>
+    <title>
+        deloitte demo
+    </title>
+    <body>
+        <style>
+        form, form *{
+            width : 70%;
+            margin-top: 15px;
+            padding : 10px;
+            border-bottom : 1px silver;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            font-size : small;
+        }
+
+        input:hover{
+            background-color: burlywood;
+        }
+        form {
+            margin : 5px;
+            font-size: large;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none ;
+        }
+        li{
+            padding-top: 5 px;
+            background-color: khaki;
+            width: 150px;
+        }
+        li:hover{
+            background-color: cadetblue;
+        }
+        img{
+            display: in-line-black;
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+        </style>
+        <header> 
+            <div class = "navbar">
+                <ul>
+                    <li> <a href = "http:// www.facebook.com" >facebook</a></li>
+                    <li> <a href = "http:// www.instagram.com" >instagram</a></li>
+                    <li> <a href = "http:// www.github.com" >github</a></li>
+                </ul>
+            </div>
+        </header>
+        <form action="test.html">
+            <img src="flower.jpg"  width="40" height="600">
+         <br>
+            enter name <input type ="text" id="tname"> <br>  
+            enter email <input type = "email" id= "temail" required><br>
+            enter address :
+            <textarea id ="taddress" required placeholder ="enter address"></textarea> 
+            <br>
+            select gender :
+            <input type ="radio" name="gender" value = "male"> male
+            <input type ="radio" name="gender" value = "female"> female
+            <br>
+            languages known :
+            <input type ="checkbox" name="cblang" value = "engish"> english
+            <input type ="checkbox" name="cblang" value = "hindi"> hindi
+            <input type ="checkbox" name="cblang" value = "kannada"> kannada
+            <br>
+            country:
+            <select>
+                <option>India</option>
+                <option>USA</option>
+                <option>Srilanka</option>
+                <option>UAE</option>
+            </select>
+            <br>
+            enter date of birth : <input type="date">
+            <br>
+            <input type ="submit" value="enter data">
+            <br>
+            <input type ="reset" name="enter" value = "reset data"> 
+        </form>
+    </body>
+</html>
